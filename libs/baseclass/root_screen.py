@@ -16,7 +16,7 @@ class PyMatterRootScreen(ThemableBehavior, MDScreen):
 
     def _late_init(self, i):
         self.image = Image(
-            source=f"{environ['PYMATTER_ROOT']}/assets/images/logo_light.png",
+            source=f"{environ['PYMATTER_ROOT']}/assets/images/matter_lkup_rgb_day.png",
             size_hint=(None, None),
             size=("40dp", "40dp"),
         )

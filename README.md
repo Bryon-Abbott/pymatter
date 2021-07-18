@@ -6,4 +6,4 @@ pillow (via pip )
 kivymd https://github.com/kivymd/KivyMD 
 
 Pip installed from cloned environemnt to working environemnt 
-    pip install ../../Smp/kivyMD/KivyMD
+    eg. pip install ../../Smp/kivyMD/KivyMD
