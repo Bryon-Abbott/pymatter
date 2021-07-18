@@ -35,11 +35,12 @@ ScreenManager:
 """
 
 
-class MDCrane(MDApp):
+class PyMatter(MDApp):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.title = "Py Matter"
-        self.icon = f"{os.environ['PYMATTER_ROOT']}/assets/images/logo_light.png"
+#        self.icon = f"{os.environ['PYMATTER_ROOT']}/assets/images/logo_light.png"
+        self.icon = f"{os.environ['PYMATTER_ROOT']}/assets/images/matter_lkup_rgb_day.png"
         self.theme_cls.primary_palette = "Gray"
         self.theme_cls.primary_hue = "100"
 
@@ -66,4 +67,4 @@ class MDCrane(MDApp):
         return Builder.load_string(KV)
 
 
-MDCrane().run()
+PyMatter().run()
